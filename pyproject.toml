@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+pythonpath = ["src"]   # Ensure pytest recognizes your source directory
+testpaths = ["tests"]  # Specify where to look for test files
+addopts = "-v"         # Verbose output
