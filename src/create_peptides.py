@@ -143,7 +143,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--output_path",
         type=str,
-        default="/mnt/10tb_hdd/bb_10billion_pentamers/output/",
         help="Output file path. Files will be saved as '<output_path>-part-*.txt'. The number of parts is the same as"
         "the number of partitions"
     )
