@@ -146,6 +146,7 @@ if __name__ == "__main__":
         help="Output file path. Files will be saved as '<output_path>-part-*.txt'. The number of parts is the same as"
         "the number of partitions"
     )
+    
     args = parser.parse_args()
 
     import time
